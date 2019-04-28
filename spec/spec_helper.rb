@@ -1,7 +1,6 @@
 require 'simplecov'
 require 'simplecov-console'
 require 'capybara'
-# require 'selenium-webdiver'
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
