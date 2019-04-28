@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PlaiceBook</title>
+    <title>TinterGram</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
@@ -9,15 +9,22 @@
   </head>
 
   <body>
+  <div class="flash-notice">
     <% if notice %>
       <p class="alert alert-success"><%= notice %></p>
     <% end %>
     <% if alert %>
       <p class="alert alert-danger"><%= alert %></p>
     <% end %>
+  </div>
+
+  <div class="page-header">
+  <%= image_tag("cctv-cartoon.png", :alt => "tintergram-logo", :id => "page-logo") %>
+  <h1>TinterGram</h1>
     <ul class="hmenu">
       <%= render 'devise/menu/login_items' %>
     </ul>
+  </div>
     <%= yield %>
   </body>
 </html>
