@@ -10,7 +10,7 @@ end
 gem 'factory_bot_rails'
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.1'
+gem 'rails', '~> 5.2'
 # linting with rubocop
 gem 'rubocop', '0.56.0'
 # Use postgresql as the database for Active Record
