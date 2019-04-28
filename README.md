@@ -1,18 +1,18 @@
-# TinterGram
+# TinterGram	
 
-(or T'interGram)
 
-![tintergram gif](https://media.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif)
+ (or T'interGram)	
 
-## Quickstart
+ ![tintergram gif](https://media.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif)	
 
-First, clone this repository. Then:
+ ## Quickstart	
 
-```bash
-> bundle install
-> bin/rails db:create
-> bin/rails db:migrate
+ First, clone this repository. Then:	
 
-> bundle exec rspec # Run the tests to ensure it works
-> bin/rails server # Start the server at localhost:3000
+ ```bash	
+> bundle install	
+> bin/rails db:create	
+> bin/rails db:migrate	
+ > bundle exec rspec # Run the tests to ensure it works	
+> bin/rails server # Start the server at localhost:3000	
 ```
