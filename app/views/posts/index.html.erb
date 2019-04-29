@@ -1,5 +1,6 @@
 
 
+<center>
 <% @posts.each do |post| %>
   <p><%= simple_format(post.message) %></p>
   <p><%= image_tag(post.image, :id => "tinter-post") if post.image.attached? %></p>
@@ -19,3 +20,4 @@
 <%= link_to new_post_path do %>
   New post
 <% end %>
+</center>
