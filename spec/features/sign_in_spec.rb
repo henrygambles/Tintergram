@@ -20,8 +20,8 @@ RSpec.feature "Sign in 💻", type: :feature do
     create_user_and_sign_up
     click_button("Sign out")
     click_link("Log in")
-    fill_in("user_email", with: "henry@com")
-    fill_in("user_password", with: "password")
+    fill_in("user_email", with: "henry2@com")
+    fill_in("user_password", with: "password2")
     click_button("Log in")
     expect(page).to have_link('New post')
   end

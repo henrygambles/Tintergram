@@ -1,6 +1,9 @@
+<center>
+<div id="sign-up-page">
 <h2>Sign up</h2>
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+<%= form_for(resource, as: resource_name, :id => "sign-up-page", url: registration_path(resource_name)) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
+  </div>
 
   <div class="field">
     <%= f.label :email %><br />
@@ -26,3 +29,4 @@
 <% end %>
 
 <%= render "devise/shared/links" %>
+</center>
