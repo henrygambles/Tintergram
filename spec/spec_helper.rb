@@ -1,6 +1,5 @@
 require 'simplecov'
 require 'simplecov-console'
-require 'capybara'
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
@@ -8,10 +7,6 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   # SimpleCov::Formatter::HTMLFormatter
 ])
 SimpleCov.start
-
-Capybara.register_driver :selenium do |app|
-  Capybara::Selenium::Driver.new(app, browser: :firefox)
-end
 
 RSpec::Matchers.define :appear_before do |later_content|
   match do |earlier_content|
