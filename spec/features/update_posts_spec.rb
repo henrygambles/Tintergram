@@ -2,7 +2,7 @@ require 'rails_helper'
 require 'sign_up_helper'
 
 RSpec.feature "Update posts", type: :feature do
-  scenario "user can update an existing post" do
+  scenario "User can update an existing post 📝" do
     create_user_and_sign_up
     visit "/posts"
     click_link "New post"
@@ -14,7 +14,7 @@ RSpec.feature "Update posts", type: :feature do
     expect(page).to have_content "This message has been updated!"
   end
 
-  scenario "user cannot update other user's post" do
+  scenario "User cannot update other user's post 📝" do
     create_user_and_sign_up
     visit "/posts"
     click_link "New post"

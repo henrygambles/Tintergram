@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tintergram",
+  "private_key_id": "3a6c7283b2106f0bb67439dc9058748c10a992f3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDSaZa1ibZk2lr6\nOhL7peku8N3oyHRNVDuunCiBfzGBaWpzZuF8dhhsiHrSrwrQN9lSfPnURYiBrBZu\nXt2XhYe/8F7oOMRKKGL3eL0TYSg9YvR7GXodt4tNhBt9y/TEO/OnDijT4iySM1QM\nSgDKUjw1UX24zFXvejzgl/XHCPo3Q8p4kC0A7FA/AHg4KxocZBYM2k0+tHGVnwID\nwa0uSP+l+sDOgUDVQU1IEkcJkal/uSMlnX3I9Q4IqITwxbYeLr5pTZtobqV4388b\nVmJLJXXBD4IFjBTX33L98qWGcxVKllY+UGaGIh8BUCBIZXQCJE/dceuK2C6g295p\ndHoL6PjBAgMBAAECggEAEEL609Lt1sONbnNYjjxXVjplXB1J58QPzMHi24dCAzdr\nc7nKyXyzDIhLvcardkYqtJZWFJK/Jw5uuV75j0FRqYLhQt9IRFb0tx2Mt1e17XCd\nZnoklvFdgcMpAMLnitb7ULjmbOG5Ah+Xak+52ekbIB/JMKQSLCztUYpNA3HtLKIb\nti8noqAEySuTR0Ewz5BSKxQccKkxQnBAd5a1tClp2kOYRd+wn7T9feO62TRjAL7T\nTuAl3W1xaMLXyrmAS7FtPAjzH3KcoLmtTWNKtOEsFXLMTKo57PXas/r0qatFN1Vk\nW/icvbmtL7eBDOTSHJNiBn4hYbcH96QM7l2NwSw69QKBgQDydJuXa/LvAD/X8SmJ\nMFUDrm/04DnG2w1lg4zALJGPY/iAxrt6GEL2cHkeh/jiiRli1HmYyIuJbSuRoblJ\nQE5CJUsAPpmQwhYeNYPm33AO9p+9K3fcEkm7M+uiV23z9XPa8ISwu+skuwnXboKJ\n0Z/bV73WlYf1W7w4l5bZeeFGswKBgQDeKrqFA9URu0Wh50ELc1sNJIeVVdraqYKN\n5uarqUKu/3i/BWYfuWyqF6zvCs8ZsgvCQLDSRYoTbnELfXuRczHc+0UC9WHW1Rkk\no0cUdMMMyv+gfPPLPF8y+H5cw8Vzr+ELSEm6bDv8YJ+BL7b+IkozBmC+LxAmvMID\nZ3+2XkZcuwKBgQDYTMVeQlTZecx7NtAKbw75GM8SlFOXH2eFL+YKr/gwB0z0fddV\nZn2e49p6LW4Rk6QNMmdEsW0i7j0XUEM/oVnv0ttlXXOc3DnlO3LwLlgHUWhS2Iu2\nzq3uj7RhAUS7hzeTlE2cahmujBqMki9tCpFlmpJm9MH1V6DEkCBo5j3e1wKBgQDa\nPckqP4CAQaH+kIhR8kjAWWEjLsqlwJyyPt/cQ5JxDB8WLvyKL4FyeX10+P5GtKNe\neGP6uzsPKY+9BNBtKmcSOHcrl9c7zew8FHUPwD+XApcolXZ78FtoW7jt8Za2tVBx\n39olWot2uYgWxMOTVCXlh99jFCJem1BPPc20XVnrXwKBgGCVYYFjJ0d+86d+Irpn\nLW+r0/H2TUecruij05aJuaREUHc/3RBEJo1nOF+AYne2yJwKQ5SF8jhEdQOw02cx\ns362O5ZQRhalmN8K0ra26OhpFPwLWYXAdsENRBM3X+xpUmmXMIPbTUwE7O098Qod\nGPoVqC6K4+94hBat7RWQ7NAY\n-----END PRIVATE KEY-----\n",
+  "client_email": "tintergram-key@tintergram.iam.gserviceaccount.com",
+  "client_id": "108977659789519778826",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tintergram-key%40tintergram.iam.gserviceaccount.com"
+}

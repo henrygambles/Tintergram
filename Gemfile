@@ -7,8 +7,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'factory_bot_rails'
 gem 'devise'
+gem 'factory_bot_rails'
+gem "google-cloud-storage", "~> 1.11", require: false
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2'
 # linting with rubocop
@@ -40,9 +41,9 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
+  gem 'geckodriver-helper'
   gem 'rspec-rails', '~> 3.5'
   gem 'selenium-webdriver'
-  gem 'geckodriver-helper'
   # simplecov for test coverage stats
   gem 'simplecov', require: false
   gem 'simplecov-console', require: false
