@@ -6,9 +6,10 @@
 
  ## Quickstart	
 
- First, clone this repository. Then:	
+ First, open up your termnial. Then:	
 
- ```bash	
+ ```bash
+> git clone https://github.com/henrygambles/tintertest	
 > bundle	
 > rake db:create	
 > rake db:migrate	
