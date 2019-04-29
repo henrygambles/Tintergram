@@ -56,9 +56,9 @@
     display: flex;	
     justify-content: space-around;	
 
-    max-width: 600px;
+    /* max-width: 600px;
     max-height: 600px;
-    border-radius: 0.5rem;	
+    border-radius: 0.5rem;	 */
     
 
     margin: 5rem auto;		

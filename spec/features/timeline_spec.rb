@@ -41,4 +41,25 @@ RSpec.feature "Timeline", type: :feature do
     click_button "Submit"
     expect(page.body).to include("New\n<br />line breaks\n<br />in this message")
   end
+
+  xscenario "Can submit pictures and view them 🖼️" do
+    create_user_and_sign_up
+    visit "/posts"
+    click_link "New post"
+    fill_in "Message", with: "Cat Bread!!"
+    # attach_file("Choose file", Rails.root + "spec/fixtures/cat-bread.jpg")
+    # click_button "Choose file"
+    # attach_file('data-file', 'path/to/file.csv')
+    # attach_file('image', 'spec/fixtures/cat-bread.jpg', make_visible: false)
+    # attach_file('spec/fixtures/cat-bread.jpg')
+
+    # click_button "post_image"
+    
+    attach_file('post_image', File.absolute_path('spec/fixtures/cat-bread.jpg'), make_visible: true)
+
+    # find('form input[type="file"]').set('spec/fixtures/cat-bread.jpg')
+
+    click_button "Submit"
+    expect(page).to have_content("Cat Bread!!")
+  end
 end

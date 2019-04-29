@@ -2,7 +2,7 @@ require 'rails_helper'
 require 'sign_up_helper'
 
 RSpec.feature "Sign in 💻", type: :feature do
-  scenario "User sees link to sign in from index page" do
+  scenario "User sees link to sign in from index page 🌐" do
     visit '/'
     click_link("Log in")
     expect(page).to have_content("Log in")
