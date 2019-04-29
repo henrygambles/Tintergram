@@ -1,0 +1,13 @@
+local:
+  service: Disk
+  root: <%= Rails.root.join("storage") %>
+ 
+test:
+  service: Disk
+  root: <%= Rails.root.join("tmp/storage") %>
+ 
+google:
+  service: GCS
+  project: tintergram
+  credentials: <%= Rails.root.join("config/gcs.json") %>
+  bucket: tintergram

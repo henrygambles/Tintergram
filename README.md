@@ -3,7 +3,7 @@
 
  (or T'interGram)	
 
- ![tintergram gif](https://media.giphy.com/media/3o6ZsZYzNvZNHGf7qg/giphy.gif)	
+ ![tintergram gif](https://media.giphy.com/media/l1J3OTuefx2MopjFe/giphy.gif)	
 
  ## Quickstart	
 
