@@ -1,6 +1,5 @@
 # TinterGram	
 
-
  (or T'interGram)	
 
  ![tintergram gif](https://media.giphy.com/media/l1J3OTuefx2MopjFe/giphy.gif)	
@@ -10,9 +9,9 @@
  First, clone this repository. Then:	
 
  ```bash	
-> bundle install	
-> bin/rails db:create	
-> bin/rails db:migrate	
- > bundle exec rspec # Run the tests to ensure it works	
-> bin/rails server # Start the server at localhost:3000	
+> bundle	
+> rake db:create	
+> rake db:migrate	
+> rspec # Run the tests to ensure it works	
+> rails s # Start the server at localhost:3000	
 ```

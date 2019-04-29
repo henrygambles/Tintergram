@@ -25,9 +25,39 @@ body {
 }	
 
  #page-logo {	
-    width: 300px;	
-    height: 205px;	
+    max-width: 300px;	
+    max-height: 205px;
+    margin: 5rem auto;
 }	
+
+#tinter-post {
+    display: flex;	
+    justify-content: space-around;	
+
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 0.5rem;	
+    
+
+    margin: 5rem auto;		
+    padding-left: 3rem;	
+    padding-right: 3rem;
+}	
+
+.sign-out-button {
+    display: flex;	
+    justify-content: space-around;	
+
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 0.5rem;	
+    
+
+    margin: 5rem auto;		
+    padding-left: 3rem;	
+    padding-right: 3rem;
+
+}
 
  .flash-notice {	
     background-color: green;	
