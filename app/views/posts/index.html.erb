@@ -1,18 +1,8 @@
-
-
 <% @posts.each do |post| %>
   <p><%= simple_format(post.message) %></p>
-  <p><%= image_tag(post.image) if post.image.attached? %></p>
-
-  
   <p><%= post.created_at.strftime('%H:%M, %-d %B') %></p>
-  <% if post.user_id == current_user.id %>
-    <%= link_to edit_post_path(post.id) do %>
-      Update
-    <% end %>
-    <%= button_to 'Delete', post_path(post),
-        method: :delete,
-        data: { confirm: 'Are you sure?' } %>
+  <%= link_to edit_post_path(post.id) do %>
+    Update
   <% end %>
 <% end %>
 

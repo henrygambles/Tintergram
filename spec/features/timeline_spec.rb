@@ -2,7 +2,7 @@ require 'rails_helper'
 require 'sign_up_helper'
 
 RSpec.feature "Timeline", type: :feature do
-  scenario "Can submit posts and view them 📝" do
+  scenario "Can submit posts and view them" do
     create_user_and_sign_up
     visit "/posts"
     click_link "New post"
@@ -11,7 +11,7 @@ RSpec.feature "Timeline", type: :feature do
     expect(page).to have_content("Hello, world!")
   end
 
-  scenario "Can see date and time posts submitted ⏰" do
+  scenario "Can see date and time posts submitted" do
     create_user_and_sign_up
     visit "/posts"
     click_link "New post"
@@ -21,7 +21,7 @@ RSpec.feature "Timeline", type: :feature do
     expect(page).to have_content(created_at)
   end
 
-  scenario "Can see posts in reverse chronological order ⌛" do
+  scenario "Can see posts in reverse chronological order" do
     create_user_and_sign_up
     visit "/posts"
     click_link "New post"
@@ -33,7 +33,7 @@ RSpec.feature "Timeline", type: :feature do
     expect("Hello, world again!").to appear_before "Hello, world!"
   end
 
-  scenario "Can submit post with line breaks ✍️" do
+  scenario "Can submit post with line breaks" do
     create_user_and_sign_up
     visit "/posts"
     click_link "New post"

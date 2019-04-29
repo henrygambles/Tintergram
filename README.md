@@ -1,18 +1,20 @@
-# TinterGram	
+# PlaiceBook
 
+![plaicebook gif](https://media.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif)
 
- (or T'interGram)	
+1. The engineering project outline is [here](https://github.com/makersacademy/course/tree/master/engineering_projects/rails).
 
- ![tintergram gif](https://media.giphy.com/media/l1J3OTuefx2MopjFe/giphy.gif)	
+2. The card wall is here: https://trello.com/b/rpTFxQEg/acebook-plaicebook
 
- ## Quickstart	
+## Quickstart
 
- First, clone this repository. Then:	
+First, clone this repository. Then:
 
- ```bash	
-> bundle install	
-> bin/rails db:create	
-> bin/rails db:migrate	
- > bundle exec rspec # Run the tests to ensure it works	
-> bin/rails server # Start the server at localhost:3000	
+```bash
+> bundle install
+> bin/rails db:create
+> bin/rails db:migrate
+
+> bundle exec rspec # Run the tests to ensure it works
+> bin/rails server # Start the server at localhost:3000
 ```
