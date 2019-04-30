@@ -15,22 +15,18 @@
  */
 
  body {	
-    margin: auto;
+    margin: 0;
     font-family: 'SlatePro';
     background-color: rgb(189, 166, 213);	
     
  }	
 .page-header {	
     background-color: rgb(213,166,190);	
-    margin: auto;	
+    margin: 0;	
     color: white;
+    display: flex;
+    align-items: left;
 }	
-
-/* .sign-up-page {
-    margin: 5rem auto;		
-    padding-left: 3rem;	
-    padding-right: 3rem;
-} */
 
  #page-logo {	
     max-width: 300px;	
@@ -55,10 +51,11 @@
 .sign-out-button {
     display: flex;	
     justify-content: space-around;	
+    float: right;
 
-    /* max-width: 600px;
+    max-width: 600px;
     max-height: 600px;
-    border-radius: 0.5rem;	 */
+    border-radius: 0.5rem;	
     
 
     margin: 5rem auto;		
@@ -72,20 +69,6 @@
     opacity: 0.5;	
     justify-content: space-around;	
 }	
-/* 
-.hmenu {
-    text-align: center;	
-    background-color: rgb(255,150,101);	
-    border-radius: 0.5rem;	
-    display: flex;	
-    justify-content: space-around;	
-
-     margin: 5rem auto;	
-
-     max-width: 600px;	
-    padding-left: 3rem;	
-    padding-right: 3rem;	
-} */
 
  p{	
     margin: 0;	
@@ -104,3 +87,105 @@
     padding-left: 3rem;	
     padding-right: 3rem;	
   }
+
+  /* @import url('https://fonts.googleapis.com/css?family=Roboto');
+ body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+ }
+.page-header {
+    background-color: #3b5998;
+    margin: 0;
+    color: white;
+    display: flex;
+    align-items: left;
+}
+
+h1 {
+  padding: 2rem;
+}
+
+.logo {
+  padding: 1.5rem;
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
+
+.devise-shared-links {
+  float: right;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+input[type=submit] {
+  background-color: rgb(47, 85, 164);
+  border-radius: 0.25rem;
+  color: white;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  font-size: 20px;
+}
+
+input[type=password] {
+  font-size: 20px;
+}
+
+input[type=email] {
+  font-size: 20px;
+}
+
+label {
+  font-size: 20px;
+}
+
+.alert {
+  background-color: rgba(86, 149, 62, 0.3);
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(106,106,106,0.2);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem auto;
+  max-width: 400px;
+  padding: 2rem;
+}
+
+.field {
+  padding: 1.5rem;
+}
+
+.hmenu {
+  float: right;
+  padding: 2rem;
+}
+
+.post {
+  padding: 1.5rem;
+  font-size: 20px;
+}
+
+.new-post-path {
+  padding: 1rem;
+  font-size: 1.25rem;
+} */
