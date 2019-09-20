@@ -9,8 +9,9 @@
  First, open up your termnial. Then:	
 
  ```bash
-> git clone https://github.com/henrygambles/tintertest	
-> bundle	
+> git clone https://github.com/henrygambles/tintergram
+> cd tintergram	
+> bundle
 > rake db:create	
 > rake db:migrate	
 > rspec # Run the tests to ensure it works	
