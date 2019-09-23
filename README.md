@@ -6,17 +6,17 @@
 
  ![tintergram gif](https://media.giphy.com/media/l1J3OTuefx2MopjFe/giphy.gif)
 
-## Features
-
-- Users are able to sign up, login & log out.
-- Images can be posted to site with the choice to add a caption.
-- Posts can be deleted by the user.
-
 ## Tech Stack
 
 Made using Ruby on Rails, Active Storage & Devise.
 
 RSpec & Capybara used as a testing framework and to establish TDD.
+
+## Features
+
+- Users are able to sign up, login & log out.
+- Images can be posted to site with the choice to add a caption.
+- Posts can be deleted by the user.
 
 ## Quickstart	
 
